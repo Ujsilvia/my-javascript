@@ -20,6 +20,25 @@
 // a[0] = 9;
 // console.log(a)
 
-if(1 in [4,1,5,6]){
-    console.log("true");
+// if(1 in [4,1,5,6]){
+//     console.log("true");
+// }
+
+
+
+// const numbers = [1,2,3,4,6,];
+// numbers.push(9);
+// console.log(numbers); 
+
+
+
+function printMe(){
+    console.log('print me');
 }
+
+function test(){
+    console.log('test';)
+}
+
+setTimeout(printMe, 2000);
+test();
